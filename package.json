@@ -1,40 +1,35 @@
 {
-  "name": "react-native-stories-media",
-  "version": "0.0.7",
-  "description": "Stories for React native Like Instagram, Whatsapp and Twitter",
+  "name": "@brunoccpires/fixed-stories-focalweb",
+  "version": "1.0.4",
+  "description": "fixed-stories-focalweb",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native",
-    "stories",
-    "stories instagram"
+    "focalweb"
   ],
   "bugs": {
-    "url": "https://github.com/iguilhermeluis/react-native-stories-media/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/iguilhermeluis/react-native-stories-media/blob/master/README.md",
+  "homepage": "",
   "peerDependencies": {
     "react": ">=15.0.0",
     "react-native": "*"
   },
   "dependencies": {
-    "react-native-video": "^5.1.0-alpha8",
-    "react-native-webview": "^10.9.3",
+    "react-native-3dcube-navigation": "^1.0.4",
+    "react-native-modalbox": "^1.7.1",
     "react-native-swipe-gestures": "^1.0.3",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-3dcube-navigation": "^1.0.4",
-    "react-native-modalbox": "^1.7.1"
+    "react-native-video": "^5.1.0-alpha8",
+    "react-native-webview": "^10.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
-    "babel-jest": "^24.8.0",
-    "jest": "^24.8.0",
-    "metro-react-native-babel-preset": "^0.54.1",
-    "react-test-renderer": "16.8.3",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
     "eslint": "^5.15.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -43,12 +38,15 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4"
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "prettier": "^1.16.4",
+    "react-test-renderer": "16.8.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iguilhermeluis/react-native-stories-media"
+    "url": ""
   },
-  "author": "Guilherme Faustino <contato@guilhermeluis.com> (https://github.com/iguilhermeluis)",
+  "author": "Editado por Bruno Pires - Original: Guilherme Faustino <contato@guilhermeluis.com> (https://github.com/iguilhermeluis)",
   "license": "MIT"
 }

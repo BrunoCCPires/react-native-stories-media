@@ -34,7 +34,7 @@ const Story = (props: Props) => {
           source={{uri: url}}
           onLoadEnd={props.onImageLoaded}
           style={styles.content}
-          resizeMode="stretch"
+          resizeMode="cover"
           // width={ScreenWidth}
         />
       ) : (

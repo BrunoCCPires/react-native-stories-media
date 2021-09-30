@@ -34,7 +34,7 @@ const StoryContainer: React.FC<Props> = (props: Props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModelOpen, setModel] = useState(false);
   const [isPause, setIsPause] = useState(false);
-  const [isLoaded, setLoaded] = useState(false);
+  const [isLoaded, setLoaded] = useState(true);
   const story = stories.length ? stories[currentIndex] : {};
   const [duration, setDuration] = useState(story.duration ? story.duration : 3);
 
@@ -55,7 +55,7 @@ const StoryContainer: React.FC<Props> = (props: Props) => {
   const nextStory = () => {
     if (stories.length - 1 > currentIndex) {
       setCurrentIndex(currentIndex + 1);
-      setLoaded(false);
+      //setLoaded(false);
       setDuration(story.duration ? story.duration : 3);
     } else {
       setCurrentIndex(0);
@@ -66,7 +66,7 @@ const StoryContainer: React.FC<Props> = (props: Props) => {
   const prevStory = () => {
     if (currentIndex > 0 && stories.length) {
       setCurrentIndex(currentIndex - 1);
-      setLoaded(false);
+      //setLoaded(false);
       setDuration(story.duration ? story.duration : 3);
     } else {
       setCurrentIndex(0);
